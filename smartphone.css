@@ -1,0 +1,37 @@
+.wrapper{
+   
+    background-color: rgb(29, 28, 27);
+    padding:0.5rem;
+    height:10vh;
+   
+   
+}
+.del{
+    display: none;
+}
+.wrapper .iconm{
+    padding:1.25rem;
+}
+.wrapper .iconm i{
+    font-size: 2rem;
+}
+.searchwrap input{
+  
+    padding-left:2rem;
+    width:60vw;
+    
+    
+}
+.searchwrap input::placeholder{
+    
+    visibility: hidden;
+    
+}
+
+.searchwrap  i{
+    left:5vw;
+    color: rgba(0, 0, 0, 0.932);
+}
+.hidden{
+    display:none;
+}

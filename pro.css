@@ -1,0 +1,309 @@
+:root{
+    --color1:#0c0c0c;
+}
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+
+.color-primary{
+    color:var(--color1);
+}
+
+/*.........Header Section...................*/
+.main-header{
+    height:80vh;
+    background: url("./images/1one.jpg")no-repeat center center/cover;
+
+}
+.sec-header{
+    background-color: rgba(24, 23, 23,0.5);
+    height: 100%;
+}
+
+.wrapper{
+    height:15vh;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width:100vw;
+   z-index:1;
+    padding:0.8rem;
+    background-image: linear-gradient(to right, rgb(231, 40, 40) , rgb(0, 183, 255),rgb(255, 0, 212));
+
+}
+.wrapper .iconm{
+padding:0.8rem;
+
+}
+.wrapper .iconm i{
+    font-size: 3rem;
+    color:var(--color1);
+}
+.wrapper ul{
+    display:flex;
+    list-style: none;
+    margin-top:0.6rem;    
+   
+   
+}
+
+.wrapper ul li{
+padding:1rem;
+
+
+
+}
+.wrapper ul li a:hover{
+    
+    background-color: var(--color1);
+    padding:1.5rem;
+    color:rgb(99, 99, 86);
+    transition-timing-function: ease-in-out;
+    transition-duration:1s;
+    
+    
+
+}
+.wrapper ul li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color:#f4f4f4;
+    font-weight: bolder;
+    font-family:'Roboto', sans-serif;
+}
+.search-bar{
+
+height:65vh;
+
+display: flex;
+align-items: center;
+
+
+}
+.search-bar  p{
+   
+    display: block;
+    width:100vw;
+    text-align:center;
+    
+   
+
+}
+.search-bar .searchwrap{
+    display: flex;
+    justify-content: center;
+  
+        
+  
+  
+   
+}
+.searchwrap input{
+ width:50vw;
+ height:6vh;
+ border-radius: 25px;
+ padding-left:2.75rem;
+ border-style: none;
+ outline:none;
+
+}
+.search-bar p{
+ 
+    margin-bottom:4rem;
+    padding-top:10rem;
+    font-size:1.5rem;
+    color:#f4f4f4;
+}
+.searchwrap  i{
+position:relative;
+left:2.5vw;
+top:1.9vh;
+color:#bdb8b89c;
+
+
+     
+ }
+
+
+ /******........This section is about  main images ***/
+.container{
+display: flex;
+flex-wrap:wrap;
+justify-content:space-evenly;
+
+
+}
+
+.img-wrapper{
+   height: 100%;
+    margin:0.5rem;
+    height:25rem;
+    width:20rem;
+   
+    position:relative; 
+}
+.img-wrapper:hover{
+   
+    transition-duration:0.5s;
+    transition-timing-function: ease-out;
+    background-color: rgba(255, 0, 0, 0.527);
+}
+.images{
+  
+   position:absolute;
+   background: url("./images/1.jpg")no-repeat center center/cover;
+   height: 100%;
+   width:100%;
+   cursor: pointer;
+   z-index:-1;
+    
+}
+
+.two{
+    background: url("./images/2.jpg")no-repeat center center/cover ;
+    
+}
+
+.three{
+    background: url("./images/3.jpg")no-repeat center center/cover ;
+}
+.four{
+    background: url("./images/4.jpg")no-repeat center center/cover ;
+}
+.five{
+    background: url("./images/5.jpg")no-repeat center center/cover ;
+}
+.six{
+    background: url("./images/6.jpg")no-repeat center center/cover ;
+}
+.seven{
+    background: url("./images/7.jpg")no-repeat center center/cover ;
+}
+.eight{
+    background: url("./images/8.jpg")no-repeat center center/cover ;
+}
+.nine{
+    background: url("./images/9.jpg")no-repeat center center/cover ;
+}
+.ten{
+    background: url("./images/10.jpg")no-repeat center center/cover ;
+}
+.eleven{
+    background: url("./images/11.jpg")no-repeat center center/cover ;
+}
+.twelve{
+    background: url("./images/12.jpg")no-repeat center center/cover ;
+}
+
+.img-description{
+    color:#ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding:12rem 4rem;
+    
+    
+   
+}
+
+
+
+
+.img-wrapper .icon{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom: 0;
+}
+.img-wrapper ul {
+  
+    display: flex;
+    align-items: flex-end;
+    
+}
+.img-wrapper .icon ul li{
+  padding:0.25rem 2.5rem;
+  list-style: none;
+ 
+}
+.img-wrapper .icon ul li a{
+    color:#f4f4f4;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+
+
+
+.copyright{
+    background-color: rgb(8, 8, 8);
+    font-size: 1rem;
+    color:#f4f4f4;
+}
+
+
+/********************************FINAL PAGE*****/
+.secwrapperfoot{
+    display: flex;
+    background:rgb(19, 18, 18);
+    flex-direction: row;
+    flex:1; 
+    
+}
+.secwrapperfoot div{
+   
+    flex:1;
+}
+.foot-text{
+    font-size:0.9rem;
+    color:#8d8d8d;
+    margin:1rem;
+   
+    
+}
+.secwrapperfoot ul{
+  padding:1rem;
+  
+    
+}
+.secwrapperfoot ul li{
+   
+    
+    list-style: none;
+  
+}
+.secwrapperfoot ul li a{
+ 
+    text-decoration: none;
+    color:#494848;
+    padding:0.5rem 0;
+    line-height: 1.5rem;
+    
+}
+
+.secwrapperfoot p{
+    color:#6e6e6e;
+    padding:1rem;
+}
+ .copyright{
+    padding:1rem;
+    text-align: center;
+
+}
+ .copyright p{
+
+}
