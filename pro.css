@@ -17,6 +17,15 @@ box-sizing: border-box;
     background: url("./images/1one.jpg")no-repeat center center/cover;
 
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo > p{
+    margin-left: 0.7rem;
+}
 .sec-header{
     background-color: rgba(24, 23, 23,0.5);
     height: 100%;
@@ -299,6 +308,6 @@ justify-content:space-evenly;
     text-align: center;
 
 }
- .copyright p{
+ /* .copyright p{
 
-}
+} */
